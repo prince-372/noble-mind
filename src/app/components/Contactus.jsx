@@ -1,15 +1,18 @@
 import React from "react";
-import womenImg from "../../../public/assets/image/women-img.png";
+import womenImg from "../../../public/assets/image/women-img.webp";
 import Image from "next/image";
 import Commenbtn from "./Commenbtn";
 import { Tringle } from "../../../public/assets/Svgfile";
 const Contactus = () => {
   return (
-    <div id="Services" className="container mx-auto px-3 max-lg:flex max-lg:justify-center relative">
+    <div
+      id="Services"
+      className="container mx-auto px-3 max-lg:flex max-lg:justify-center relative"
+    >
       <span className=" absolute bottom-[-36%] left-[-4%]">
         <Tringle />
       </span>
-      <div className="grid lg:grid-cols-2 grid-cols-1 ">
+      <div className="grid lg:grid-cols-2 grid-cols-1">
         <div data-aos="fade-down" className="max-w-[478px]">
           <h2 className=" text-5xl leading-[57px] text-black font-semibold font-Outfit pt-[30px]">
             Contact <span className="font-light">Us</span>

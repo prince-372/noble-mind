@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Backbtn from "../../../public/assets/image/uparrow.png";
+import Backbtn from "../../../public/assets/image/uparrow.webp";
 import Image from "next/image";
 
 const Backtotop = () => {

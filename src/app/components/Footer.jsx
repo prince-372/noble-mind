@@ -46,7 +46,7 @@ const Footer = () => {
                 <li className="pt-4">
                   <a
                     href="#home"
-                    className="font-normal text-base font-Exo text-[#B7B7B4]"
+                    className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     Home
                   </a>
@@ -54,7 +54,7 @@ const Footer = () => {
                 <li className="pt-[14px]">
                   <a
                     href="#aboutus"
-                    className="font-normal text-base font-Exo text-[#B7B7B4]"
+                    className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     About Us
                   </a>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <li className="pt-[14px]">
                   <a
                     href="#services"
-                    className="font-normal text-base font-Exo text-[#B7B7B4]"
+                    className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     services
                   </a>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <li className="pt-[14px]">
                   <a
                     href="#chooseUs"
-                    className="font-normal text-base font-Exo text-[#B7B7B4]"
+                    className="font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     Why Choose Us
                   </a>
@@ -88,7 +88,7 @@ const Footer = () => {
                 <li className="pt-4">
                   <a
                     href=""
-                    className=" font-normal text-base font-Exo text-[#B7B7B4]"
+                    className=" font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     Term & Conduction
                   </a>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <li className="pt-[14px]">
                   <a
                     href=""
-                    className=" font-normal text-base font-Exo text-[#B7B7B4]"
+                    className=" font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     Privacy Policy
                   </a>
@@ -104,7 +104,7 @@ const Footer = () => {
                 <li className="pt-[14px]">
                   <a
                     href=""
-                    className=" font-normal text-base font-Exo text-[#B7B7B4]"
+                    className=" font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     Contact
                   </a>
@@ -112,7 +112,7 @@ const Footer = () => {
                 <li className="pt-[14px]">
                   <a
                     href=""
-                    className=" font-normal text-base font-Exo text-[#B7B7B4]"
+                    className=" font-normal text-base font-Exo text-[#B7B7B4] hover:text-white hover:duration-300 duration-300"
                   >
                     (629) 555-0129
                   </a>

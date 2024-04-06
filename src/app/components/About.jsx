@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Doctor from "../../../public/assets/image/doctor-img.png";
+import Doctor from "../../../public/assets/image/doctor-img.webp";
 import { Star, Tringle } from "../../../public/assets/Svgfile";
 import Commenbtn from "./Commenbtn";
 

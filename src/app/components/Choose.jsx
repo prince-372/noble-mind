@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Star, Tringle } from "../../../public/assets/Svgfile";
 import Image from "next/image";
-import forpeople from "../../../public/assets/image/slider-img.png";
+import forpeople from "../../../public/assets/image/slider-img.webp";
 const Choose = () => {
   const Items = [
     {
