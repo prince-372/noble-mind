@@ -1,5 +1,5 @@
-'use client'
-import { useEffect } from "react";
+"use client";
+import { useEffect, useState } from "react";
 import About from "./components/About";
 import Backtotop from "./components/Backtotop";
 import Choose from "./components/Choose";
@@ -14,6 +14,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Home() {
+  const [data, setdata] = useState(true);
+  useEffect(() => {
+    setdata(true);
+    setTimeout(() => {
+      setdata(false);
+    }, 3000);
+  }, []);
   useEffect(() => {
     AOS.init({
       duration: 1500,
@@ -22,16 +29,23 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <Mynav />
-      <Header />
-      <About />
-      <Choose />
-      <Contactus />
-      <Faq />
-      <Input />
-      <Backtotop />
-      <Loader />
-      <Footer />
+      {data ? (
+        <>
+          <Loader />
+        </>
+      ) : (
+        <div>
+          <Mynav />
+          <Header />
+          <About />
+          <Choose />
+          <Contactus />
+          <Faq />
+          <Input />
+          <Backtotop />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
