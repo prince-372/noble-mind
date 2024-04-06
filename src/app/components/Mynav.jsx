@@ -8,9 +8,9 @@ const Mynav = () => {
     function setopen() {
         setfirst(!first);
         if (first === false) {
-            document.body.classList.add("overflow");
+            document.body.classList.add("overflow-nav");
         } else {
-            document.body.classList.remove("overflow");
+            document.body.classList.remove("overflow-nav");
         }
     }
     return (

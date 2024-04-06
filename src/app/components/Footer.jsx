@@ -45,7 +45,7 @@ const Footer = () => {
                 </li>
                 <li className="pt-4">
                   <a
-                    href=""
+                    href="#home"
                     className="font-normal text-base font-Exo text-[#B7B7B4]"
                   >
                     Home
@@ -53,7 +53,7 @@ const Footer = () => {
                 </li>
                 <li className="pt-[14px]">
                   <a
-                    href=""
+                    href="#aboutus"
                     className="font-normal text-base font-Exo text-[#B7B7B4]"
                   >
                     About Us
@@ -61,7 +61,7 @@ const Footer = () => {
                 </li>
                 <li className="pt-[14px]">
                   <a
-                    href=""
+                    href="#services"
                     className="font-normal text-base font-Exo text-[#B7B7B4]"
                   >
                     services
@@ -69,7 +69,7 @@ const Footer = () => {
                 </li>
                 <li className="pt-[14px]">
                   <a
-                    href=""
+                    href="#chooseUs"
                     className="font-normal text-base font-Exo text-[#B7B7B4]"
                   >
                     Why Choose Us
