@@ -8,9 +8,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        btn: "linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%)",
+        hero: "url('/assets/image/header-img.png')",
+        input:"url('/assets/image/input-img.png')",
+      },
+      fontFamily: {
+        Montserrat: "Montserrat, sans-serif",
+        Outfit: "Outfit, sans-serif",
+        Exo: "Exo 2, sans-serif",
       },
     },
   },
