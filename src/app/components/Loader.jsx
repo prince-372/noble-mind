@@ -4,7 +4,7 @@ const Loader = () => {
   return (
     <div>
       <div class="flex space-x-2 justify-center items-center bg-white h-screen ">
-        <div className="flex gap-3 items-center">
+        <div className="max-sm:flex-col flex max-sm:gap-7 gap-3 items-center">
           <Logo />
           <div className="flex gap-2">
             <span class="sr-only">Loading...</span>

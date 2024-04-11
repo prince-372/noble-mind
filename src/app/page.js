@@ -24,9 +24,9 @@ export default function Home() {
   useEffect(() => {
     AOS.init({
       duration: 1500,
-      once: true,
+      once: true, 
     });
-  }, []);
+  }, []); 
   return (
     <div>
       {data ? (
@@ -38,7 +38,7 @@ export default function Home() {
           <Mynav />
           <Header />
           <About />
-          <Choose />
+          <Choose />   
           <Contactus />
           <Faq />
           <Input />
