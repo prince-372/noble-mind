@@ -6,14 +6,14 @@ import { Tringle } from "../../../public/assets/Svgfile";
 const Contactus = () => {
   return (
     <div
-      id="Services"
+      id="services"
       className="container mx-auto px-3 max-lg:flex max-lg:justify-center relative"
     >
       <span className=" absolute bottom-[-36%] left-[-4%]">
         <Tringle />
       </span>
       <div className="grid lg:grid-cols-2 grid-cols-1">
-        <div data-aos="fade-down" className="max-w-[478px]">
+        <div data-aos="fade-down" className="max-w-[478px] order-2 lg:order-1">
           <h2 className=" text-5xl leading-[57px] text-black font-semibold font-Outfit pt-[30px]">
             Contact <span className="font-light">Us</span>
           </h2>
@@ -81,13 +81,13 @@ const Contactus = () => {
         </div>
         <div
           data-aos="fade-down"
-          className=" flex justify-center items-center pt-3"
+          className=" flex justify-center items-center pt-3 order-1 lg:order-2"
         >
           <Image
             src={womenImg}
             alt="Contact Img"
             width={598}
-            className="w-full "
+            className="w-full max-sm:h-[240px] max-sm:rounded-[8px] max-sm:object-cover"
           />
         </div>
       </div>

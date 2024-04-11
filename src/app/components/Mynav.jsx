@@ -23,8 +23,8 @@ const Mynav = () => {
                     <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black text-base leading-6 font-normal' href="#services">Services</a></li>
                     <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black text-base leading-6 font-normal' href="#chooseUs">Why Choose Us</a></li>
                     <li><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black text-base leading-6 font-normal' href="#blog">Blog</a></li>
-                    <li className=' lg:pr-10'><a onClick={setopen} className=' font-Exo text-[#5A594D] text-base leading-6 font-normal' href="#faq">FAQ</a></li>
-                    <li> <a href="#aboutus">
+                    <li className=' lg:pr-10'><a onClick={setopen} className=' font-Exo text-[#5A594D] hover:text-black text-base leading-6 font-normal' href="#faq">FAQ</a></li>
+                    <li> <a href="#services">
                         <Commenbtn text="Contact Us"/>
                     </a></li>
                 </ul>

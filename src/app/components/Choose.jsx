@@ -99,7 +99,7 @@ const Choose = () => {
           </div>
         </div>
         <Image
-          className=" pt-5 w-full"
+          className=" mt-5 w-full max-sm:h-[247px] max-sm:object-cover max-sm:rounded-[8px] overflow-hidden"
           alt="sliderimg"
           src={forpeople}
           height={527}

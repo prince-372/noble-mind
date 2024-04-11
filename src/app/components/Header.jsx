@@ -3,7 +3,7 @@ import { Star, Tringle } from "../../../public/assets/Svgfile";
 
 const Header = () => {
   return (
-    <div id="home" className="bg-hero lg:min-h-[720px] min-h-[400px] bg-center bg-cover bg-no-repeat flex items-center relative">
+    <div id="home" className="bg-hero bg-headerimg lg:min-h-[720px] min-h-[400px] bg-center bg-cover bg-no-repeat flex items-center relative">
       <div className=" container mx-auto px-3">
         <div>
           <p className=" flex items-center font-normal font-Exo text-[#131200] text-base gap-1">

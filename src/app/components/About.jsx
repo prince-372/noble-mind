@@ -9,7 +9,7 @@ const About = () => {
     <div id="aboutus" className=" container px-3 mx-auto sm:pt-[150px] pt-[50px] max-lg:flex max-lg:justify-center">
       <div
         data-aos="fade-down"
-        className=" grid lg:grid-cols-2 grid-cols-1  gap-3"
+        className=" grid lg:grid-cols-2 grid-cols-1  gap-10"
       >
         <Image
           className=""
