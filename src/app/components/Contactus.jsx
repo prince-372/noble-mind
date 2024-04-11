@@ -87,7 +87,7 @@ const Contactus = () => {
             src={womenImg}
             alt="Contact Img"
             width={598}
-            className="w-full max-sm:h-[240px] max-sm:rounded-[8px] max-sm:object-cover"
+            className="w-full max-sm:mt-[30px] max-sm:h-[240px] max-sm:rounded-[8px] max-sm:object-cover"
           />
         </div>
       </div>
